@@ -1,0 +1,36 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 10px;
+}
+.search-input{
+    padding: 15px;
+    width: 50%;
+}
+.search-btn{
+    padding: 18px 17px;
+    background-color: blue;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+.cart{
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.cart-info-container{
+    display: flex;
+    justify-content: center;
+}
+.delete-btn{
+    padding: 5px 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
